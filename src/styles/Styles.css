@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: #333;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .navbar-name {
+    color: white;
+
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px; /* Adjust spacing between links as needed */
+  }
+  
+  .nav-link-active {
+    color: black; /* Change this color to whatever you prefer for the active state */
+    text-decoration: underline;
+  }
+
+  a:hover, .nav-link:hover {
+    color: gray;
+    text-decoration: underline;
+  }
+
+  @media (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+    }
+  }

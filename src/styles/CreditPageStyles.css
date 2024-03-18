@@ -1,0 +1,32 @@
+/* CreditPageStyles.css */
+.credits-container {
+    padding: 16px;
+  }
+  
+  .credits-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .credits-text, .credits-links p {
+    margin-top: 8px;
+  }
+  
+  .credits-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .credits-links li {
+    margin: 8px 0;
+  }
+  
+  .credits-links a {
+    color: grey;
+    text-decoration: none;
+  }
+  
+  .credits-links a:hover {
+    text-decoration: underline;
+  }
+  

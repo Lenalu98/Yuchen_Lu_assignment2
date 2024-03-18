@@ -1,0 +1,87 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 30px;
+  }
+  
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  .home-description, .home-photo {
+    flex: 1;
+  }
+  .game-rules {
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+  
+  .game-rules li {
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  .home-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .home-photo img{
+    width: 60%;
+    height: auto;
+    display: block;
+  }
+  .home-photo img:first-child {
+    margin-bottom: 20px;
+  }
+  .game-description p {
+    margin-top: 20px; 
+    text-align: justify; 
+  }
+  
+  
+
+  @media (max-width: 768px) {
+    .home-container {
+      padding: 12px;
+    }
+  
+    .home-title {
+      font-size: 18px;
+    }
+  
+    .home-text {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .home-container {
+      padding: 8px;
+    }
+  
+    .home-title {
+      font-size: 16px;
+    }
+  
+    .home-text {
+      font-size: 12px;
+    }
+  }
