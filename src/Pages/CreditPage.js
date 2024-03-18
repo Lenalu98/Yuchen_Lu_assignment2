@@ -12,7 +12,7 @@ const CreditPage = () => {
         <ul>
           <li>
             <a href="https://github.com/Lenalu98?tab=repositories" target="_blank" rel="noopener noreferrer">
-              GitHub Link
+              GitHub Link - Source Codes
             </a>
           </li>
           <li>
